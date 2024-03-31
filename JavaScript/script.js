@@ -1,5 +1,10 @@
  // Define the Pizza class
  class Pizza {
+  size;
+  crust;
+  sauce;
+  toppings;
+  instructions;
     constructor(size, crust, sauce, toppings, instructions) {
       this.size = size;
       this.crust = crust;
